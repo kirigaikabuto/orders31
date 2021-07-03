@@ -1,0 +1,1 @@
+go get github.com/kirigaikabuto/common-lib31@main
