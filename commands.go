@@ -1,4 +1,4 @@
-package orders
+package orders31
 
 type CreateOrderCommand struct {
 	ProductId string `json:"product_id"`
