@@ -2,7 +2,7 @@ package orders31
 
 type CreateOrderCommand struct {
 	ProductId string `json:"product_id"`
-	UserId    string `json:"-"`
+	UserId    string `json:"user_id"`
 }
 
 type HttpError struct {
