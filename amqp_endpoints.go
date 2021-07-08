@@ -9,7 +9,7 @@ type OrderAmqpEndpoints struct {
 	ordersStore OrdersStore
 }
 
-func NewProductAmqpEndpoints(o OrdersStore) OrderAmqpEndpoints {
+func NewOrdersAmqpEndpoints(o OrdersStore) OrderAmqpEndpoints {
 	return OrderAmqpEndpoints{ordersStore: o}
 }
 
